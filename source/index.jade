@@ -1,0 +1,35 @@
+extend layout.jade
+
+block navbar
+    include partials/navbar.jade
+
+block content
+    h1 #{menu.list[1].name}
+
+    hr
+
+    h1
+        span Content
+        | Another content <!-- | 不會被輸出 -->
+
+    br 
+    | content
+    ul
+        li
+            a(href="#") link
+        li
+            a(href="#") link
+        li
+            a(href="#") link
+
+    h1: a(href="#"): span 連結
+
+    h1
+        a(href="#")
+            span 連結
+
+    hr
+    .container
+        form(action="" method="method")
+            label(for="email") 請輸入Email
+                input#email.form-control.input-sm(type="text")

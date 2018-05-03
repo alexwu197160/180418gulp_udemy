@@ -1,0 +1,22 @@
+{
+  "name": "180418Gulp_udemy",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "alexwu197160 <alexwu71@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.16"
+  }
+}
