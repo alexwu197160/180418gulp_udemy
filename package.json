@@ -15,7 +15,6 @@
   "bootstrap-sass": "^3.3.7",
   "browser-sync": "^2.23.6",
   "deploy": "^1.0.3",
-  "gift": "^0.10.2",
   "git": "^0.1.5",
   "gulp": "^3.9.1",
   "gulp-babel": "^7.0.1",
@@ -24,7 +23,6 @@
   "gulp-concat": "^2.6.1",
   "gulp-data": "^1.3.1",
   "gulp-deploy": "0.0.2",
-  "gulp-gh-pages": "^0.5.4",
   "gulp-git": "^2.5.2",
   "gulp-if": "^2.0.2",
   "gulp-imagemin": "^4.1.0",
@@ -41,5 +39,9 @@
   "gulp-uglify": "^3.0.0",
   "minimist": "^1.2.0",
   "request-json": "^0.6.3"
+ },
+ "devDependencies": {
+  "gift": "^0.10.2",
+  "gulp-gh-pages": "^0.5.4"
  }
 }
